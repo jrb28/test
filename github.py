@@ -14,7 +14,7 @@ def geoid_parse_cty_fip(row):
 
 # function to extract the tract code from the id column
 def geoid_parse_cty_tract(row):
-    return #complete this statement
+    return row['id'][-5:]#complete this statement
 
 # function to extract the county name from the 'Geographic Area Name' column
 # This function is completed as an example
